@@ -1,3 +1,7 @@
+{% comment %}
+  The following template is not final.
+  It is currently included for testing purposes.
+{% endcomment %}
 <!DOCTYPE>
 <html lang="en">
 <head>
@@ -7,5 +11,9 @@
     {% if well %}
         {{well.render|safe}}
     {% endif %}
+    
+    <p>
+    <a href='{% url event_list %}'>Events Listing</a>
+    </p>
 </body>
 </html>

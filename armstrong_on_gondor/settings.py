@@ -132,7 +132,7 @@ INSTALLED_APPS = (
     'armstrong.core.arm_wells',
     'armstrong.apps.content',
     'armstrong.apps.articles',
-    #'armstrong.apps.events',
+    'armstrong.apps.events',
     'reversion',
     'chunks',
     

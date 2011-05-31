@@ -10,5 +10,5 @@ armstrong.core.arm_sections
 armstrong.core.arm_wells
 armstrong.core.arm_content
 armstrong.apps.articles
+armstrong.apps.events
 #-e git://github.com/armstrongcms/armstrong.core.arm_profiles.git#egg=armstrong.core.arm_profiles
-#-e git://github.com/armstrongcms/armstrong.apps.events.git#egg=armstrong.apps.events

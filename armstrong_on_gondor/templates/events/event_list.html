@@ -1,3 +1,8 @@
+{% comment %}
+  The following template is not final.
+  It is currently included for testing purposes.
+{% endcomment %}
+
 {% for event in event_list %}
 
     <a href="{%url event_detail event.slug %}"> {{ event.start_day }} - {{ event.title }}</a>
