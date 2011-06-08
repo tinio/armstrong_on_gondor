@@ -127,14 +127,17 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     'django.contrib.admindocs',
+
     'armstrong.core.arm_content',
     'armstrong.core.arm_sections',
     'armstrong.core.arm_wells',
     'armstrong.apps.content',
     'armstrong.apps.articles',
     'armstrong.apps.events',
+
     'reversion',
     'chunks',
+    'mptt',
     
     'home',
 )
